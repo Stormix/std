@@ -1,0 +1,22 @@
+[
+	{
+		"name": "utils",
+		"blocks": [
+			{
+				"name": "logger",
+				"directory": "src/blocks/utils",
+				"category": "utils",
+				"tests": false,
+				"subdirectory": false,
+				"files": [
+					"logger.ts"
+				],
+				"localDependencies": [],
+				"dependencies": [
+					"tslog@^4.9.3"
+				],
+				"devDependencies": []
+			}
+		]
+	}
+]
